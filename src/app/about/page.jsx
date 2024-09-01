@@ -1,0 +1,12 @@
+
+
+function AboutPage() {
+  return (
+    <div className="text-center p-10">
+        <h1 className="text-2xl font-bold my-4">About</h1>
+        <p className=" text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corporis soluta blanditiis ipsam maiores, et repellendus voluptatibus atque voluptatem repellat temporibus in nam ipsum fugit ullam, non pariatur aliquam, illo odit exercitationem ipsa dolorem tempore. Enim quod voluptates at cumque ea sunt veritatis quo dignissimos quis dolores? Enim molestiae voluptatum ad nobis debitis dolorem illo nemo fugit architecto, voluptas velit. Maiores exercitationem hic veritatis velit ab accusantium earum ea id optio quidem similique eveniet voluptatum praesentium aspernatur, necessitatibus cupiditate, nobis dolorum. Omnis quaerat eum recusandae pariatur quasi impedit expedita odio soluta laboriosam veniam ullam, aut deleniti natus veritatis atque odit modi, obcaecati sequi! Soluta ratione ipsam repellendus, quasi eaque itaque eum voluptatibus rerum adipisci ab placeat facilis similique at tempore tempora recusandae repellat explicabo maiores deleniti excepturi minus minima dolore. Fuga aperiam facere magni cum dolores ex nulla libero reiciendis culpa debitis non, quis eveniet quam, deleniti dignissimos officiis consequuntur consectetur? Corporis nemo sapiente fugiat perferendis tenetur ut neque hic corrupti illo. Nisi odio provident inventore. Numquam saepe dolor sint amet ex eveniet repellat distinctio, repellendus deserunt enim vitae corrupti aspernatur, reprehenderit porro dolorum minus vero, qui quibusdam voluptate quia exercitationem quis blanditiis sit? Excepturi sed architecto eveniet aperiam aspernatur dicta? Hic nisi distinctio molestias ipsum amet est excepturi ab ex eveniet laboriosam similique, autem, minima tenetur nam quidem? Illum facere dolorum id ipsam, atque aliquam labore officia ipsum voluptates, consectetur, laudantium dicta esse quisquam omnis. Deleniti, nihil. Tempore eveniet dolore nisi ullam reprehenderit, vero nobis eos odit dolor soluta accusamus repellendus velit? Quos in perferendis laborum atque dolorum enim omnis beatae? Totam delectus obcaecati asperiores repellendus! Ratione nobis laboriosam quibusdam, enim maxime molestias et blanditiis corporis modi unde eos est temporibus beatae illum vitae harum ut nihil inventore id quidem. Velit, laboriosam. Quidem accusantium quis sapiente, animi eos perspiciatis!</p>
+        </div>
+  )
+}
+
+export default AboutPage
