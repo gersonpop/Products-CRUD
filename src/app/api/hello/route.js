@@ -1,6 +1,10 @@
-const { NextResponse } = require("next/server");
+import { conn } from "@/libs/mysql";
+import { NextResponse }  from "next/server";
 
-export function GET() {
-    return NextResponse.json({message:"Hello world"})
+
+export async function GET() {
+    const result = await conn.query('SELECT NOW()')
+    console.log(result)
+    return NextResponse.json({message:"Hello"})
     
 }
