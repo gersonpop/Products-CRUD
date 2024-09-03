@@ -4,7 +4,8 @@ function Navbar() {
     return (
         <nav className=' bg-zinc-950 px-20 py-4'>
             <div className="flex justify-between items-center text-white container mx-auto">
-                <h3 className=' text-xl'><Link href='/' className=' text-white hover:text-gray-300 hover:cursor-pointer'>
+                <h3 className=' text-xl'>
+                    <Link href='/' className=' text-white hover:text-gray-300 hover:cursor-pointer'>
                             Next MySQL
                         </Link></h3>
                 <ul>
