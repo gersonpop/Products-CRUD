@@ -53,9 +53,8 @@ export async function POST(request) {
         -------------------------------------------------------------------- */
         // // Configuración de la autenticación con OAuth2
         // const oauth2Client = new google.auth.OAuth2(
-        //     '579277608536-fkov6d3tfpf90jjfpusoau5h503fee1n.apps.googleusercontent.com',  // Client ID
-        //     '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',        // Client Secret
-        //     'http://localhost'        // Redirección URI
+       //     process.env.GOOGLE_CLIENT_ID,  // Client ID
+
         // );
         // // Genera la URL de autorización
         // const authUrl = oauth2Client.generateAuthUrl({
